@@ -1,5 +1,6 @@
+
 .subscribe-button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -13,4 +14,19 @@
 
     .subscribe-button:hover {
         background-color: #45a049;
+    }
+
+
+body.dark-mode {
+    background-color: #333;
+    color: #eee;
+}
+
+.subscribe-button.dark-mode {
+    background-color: #222;
+    color: #ddd;
+}
+
+    .subscribe-button.dark-mode:hover {
+        background-color: #555;
     }
