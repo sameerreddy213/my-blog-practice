@@ -1,6 +1,5 @@
-
 .subscribe-button {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Green */
     color: white;
     padding: 10px 20px;
     text-align: center;
@@ -12,11 +11,11 @@
     cursor: pointer;
 }
 
-    .subscribe-button:hover {
-        background-color: #45a049;
-    }
+.subscribe-button:hover {
+    background-color: #45a049;
+}
 
-
+/* Dark Mode Styles */
 body.dark-mode {
     background-color: #333;
     color: #eee;
@@ -27,6 +26,6 @@ body.dark-mode {
     color: #ddd;
 }
 
-    .subscribe-button.dark-mode:hover {
-        background-color: #555;
-    }
+.subscribe-button.dark-mode:hover {
+    background-color: #555;
+}
