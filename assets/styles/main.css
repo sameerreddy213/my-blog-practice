@@ -1,3 +1,7 @@
+body {
+    margin-top: 20px;
+}
+
 .subscribe-button {
     background-color: #4CAF50; /* Green */
     color: white;
