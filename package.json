@@ -4,7 +4,7 @@
   "description": "For installation instructions, please refer to the [Installation](https://github.com/sameerreddy213/my-blog-practice/wiki/Installation) page.",
   "main": "index.js",
   "scripts": {
-  "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,9 @@
   "homepage": "https://github.com/sameerreddy213/my-blog-practice#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
   },
   "dependencies": {
     "ansi-escapes": "^4.3.2",
@@ -209,3 +212,4 @@
     "yocto-queue": "^0.1.0"
   }
 }
+
